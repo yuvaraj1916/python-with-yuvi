@@ -1,6 +1,9 @@
-# write a program that take 2 inputs and print thw strings in swapped order
-str1 = input("Enter the first string: ")
-str2 = input("Enter the second string: ")
-print("Swapped strings:")
-print(str2)
-print(str1)
+# Day 9 - String Swap
+a = input("Enter first string: ")
+b = input("Enter second string: ")
+
+a, b = b, a
+
+print("After swap:")
+print(a)
+print(b)
